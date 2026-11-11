@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# 向量資料庫（可用 ingest.py 重新產生）
+qdrant_data/
+
+# 原始 PDF（有版權，不上傳）
+docs/*
+!docs/.gitkeep
+
+# macOS 屬性檔
+._*
+.DS_Store
